@@ -6,7 +6,7 @@ fileTypes: [algo, alg]
 uuid: fd7cdfbf-a6be-4e7e-8db5-b28e46055c52
 
 patterns:
-- match: \b(?i:const|vaut|c\`est|si|sinon|alors|fin_si|var)\b
+- match: \b(?i:const|vaut|c\`est|si|sinon|alors|fin_si|var|fonction|fin_fonction|retourner|repeter|jusqu\`a)\b
   name: keyword.other
 
 - match: \b(?i:et|ou|non|ou_exclusif|mod)\b
